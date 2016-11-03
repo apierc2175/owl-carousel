@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Nature</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Nature</h1>
+    <div class="owl-carousel">
+      <div class="item"><img src="img/nature_1_forest_bridge.jpg"></div>
+      <div class="item"><img src="img/nature_2_mountains.jpg"></div>
+      <div class="item"><img src="img/nature_3_windy_road.jpg"></div>
+      <div class="item"><img src="img/nature_4_mountains_sky.jpg"></div>
+      <div class="item"><img src="img/nature_5_farm.jpg"></div>
+      <div class="item"><img src="img/nature_6_flowers.jpg"></div>
+      <div class="item"><img src="img/nature_7.jpg"></div>
+      <div class="item"><img src="img/nature_8.jpg"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1,
+          autoplay : true,
+          autoplayTimeout : 2500,
+          autoplayHoverPause : true,
+          dots : true,
+          loop : true,
+          margin : 10,
+          nav : true
+      })
+     })
+    </script>
+  </body>
+</html>

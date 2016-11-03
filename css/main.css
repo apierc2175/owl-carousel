@@ -1,0 +1,15 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #555
+}
+
+h1 {
+text-align: center;
+color: #fff;
+font-family: serif;
+}
+
+.item {
+
+}
